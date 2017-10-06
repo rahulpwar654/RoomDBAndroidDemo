@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahulp.dataentry.EmployeeDetailActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:id="@+id/empid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Id"
+            android:layout_margin="5dp"/>
+        <EditText
+            android:id="@+id/empdesignation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Designation"
+            android:layout_margin="5dp"/>
+        <EditText
+            android:id="@+id/empaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Addres"
+            android:layout_margin="5dp"/>
+        <Button
+            android:id="@+id/btn_empadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"/>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
